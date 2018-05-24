@@ -1,3 +1,3 @@
 FROM alpine:3.7
-COPY ./README.MD /root/
+COPY README.md /root/
 CMD ['ls','-l']
